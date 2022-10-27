@@ -2,6 +2,7 @@
 Easily spin off Kubernetes clusters on major cloud providers
 
 ============GOOGLE CLOUD PLATFROM================
+
 To spin off Kubernetes clusters on Google's GCP, follow these steps
 GCP offers a hosted K8s as a service. This service is known as Google Kubernetes Engine (GKE).
 To get started with GKE, you need the following:
@@ -17,6 +18,7 @@ Allow this to run for a couple of minutes it might take a while because a fresh 
 When the cluster is ready, you can fetch the credentials for the cluster by running this command in your terminal: $ gcloud auth application-default login
 
 ================MICROSOFT AZURE==================
+
 To spinoff Kubernetes on Microsoft Azure
 
 Microsoft Azure offers a hosted k8s as a service. An easy way to get started with the Microsoft Azure Container Service is via the use of the built in Azure Cloud Shell found int he Azure Portal.
